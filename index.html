@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BIOHAX INTERNATIONAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+        <div class="popUpContainer hidden row-center">
+                <div class="backdrop" onclick="hidePopUp()"></div>
+                <div class="popUp">
+                    <div class="cross" onclick="hidePopUp()">
+                        <!--Icons made by <a href="https://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>-->
+                        <svg width="20" height="20" fill="rgba(255,255,255,0.4)" version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                            <path d="M14 11l8-8V2c0-1 0 0 0 0l-2-2h-1l-8 8-8-8H2C1 0 2 0 2 0L0 2v1l8 8-8 8v1c0 1 0 0 0 0l2 2h1l8-8 8 8h1l2-2v-1l-8-8z" />
+                        </svg>
+                    </div>
+                    <h4>Biohax Tech</h4>
+                    <p>Subscribe to get latest news!</p>
+                    <form class="row-center subscribeForm">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button class="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+    <div class="col-sm">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="images/logoBright.png" width="50" height="auto" alt="">
+            </a>
+            <a href="#" class="navbar-brand text-light col-sm">BIOHAX
+                INTERNATIONAL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="responsive-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#info" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#exTeam" class="nav-link">Our team</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <header class="jumbotron text-center splash-screen">
+        <div class="cta">
+            <h1 class="display-4">BIO<b>HAX</b></h1>
+            <p class="subtitle">The future is in your hands</p>
+            <a href="./time.html" class="btn btn-outline-light">Sign up here</a>
+        </div>
+        <div class="my-5"></div>
+        <div class="py-5"></div>
+    </header>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/biohaxinternational" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/biohaxint" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/biohax.tech/" target="_blank" class="google"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jowan%C3%B6sterlund/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/watch?v=ioD-tFzLX8k" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+    <main class="content">
+        <section class="container" id="about">
+            <div class="row" id="info">
+                <article class="col-md-3">
+                    <div class="card">
+                        <div class="top">
+                            <img src="images/implant.png" class="info-img" id="implant-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>What is it?</h3>
+                            <p class="card-text">It´s a near field comunication device in a bodysafe material that has
+                                been tested for decades and approved by the FDA.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-3">
+                    <div class="card">
+                        <div class="top">
+                            <img src="images/globe.png" class="info-img" id="globe-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>Why use it?</h3>
+                            <p class="card-text">Our vision is to create a seamless interaction with you digital
+                                surroundings and at the same time putting you in control of your online persona and
+                                your digital data.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-3">
+                    <div class="card">
+                        <div class="top">
+                            <img src="images/keys.png" class="info-img" id="keys-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>What can I use it for?</h3>
+                            <p class="card-text">Just imagine having your keys, ID card, credit card, gym card and even
+                                your business card with you at all times, without having to think about it!
+                                Applications are extremely diverse and are just limited by imagination.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-3">
+                    <div class="card">
+                        <div class="top">
+                            <img src="images/email.png" class="info-img" id="email-img">
+                        </div>
+                        <div class="card-body">
+                            <h4>How can I get started?</h4>
+                            <p class="card-text">In 2 seconds! Simply sign up to our newsletter and follow us on our
+                                social media websites to keep yourself updated!</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="parallax">
+            <article class="tagline">
+                <!--<h3 class="text-center tet-light">... Just like water...</h3>-->
+            </article>
+        </section>
+        <section class="profile" id="exTeam"">
+            <h1>EXECUTIVE TEAM</h1>
+            <div class=" line">
+            </div>
+            <div class="row-center teamInfo">
+                <img id="ceoImg" src="event-cover-3482.png">
+                <div class="column-center ceoInfo">
+                    <h2>JOWAN ÖSTERLUND</h1>
+                        <h3>Founder & CEO</h3>
+                        <p>Jowan Österlund founded Biohax International in 2013 having over 15 years of experience in
+                            sterile procedure for piercing and body modification. In addition, he also leads progress
+                            for standardisation on bio-devices for the public and is involved in the relevant
+                            regulatory process and development of legislation. And he is currently the leading safe and
+                            secure Biochip installer in the world.</p>
+                </div>
+            </div>
+
+            <div class="row-center teamInfo">
+                <img id="chiefImg" src="https://blockchain-expo.com/global/wp-content/uploads/2018/02/stewart.png">
+                <div class="column-center chiefInfo">
+                    <h2>STEWART SOUTHEY</h2>
+                    <h3>Chief Medical Officer</h3>
+                    <p>Dr Stewart Southey (MBBCh FRCA MBA) is a Consultant Anaesthetist, Healthcare Business Strategist
+                        and Blockchain Evangelist currently completing his MSc in Digital Currencies.
+                    </p>
+                    <p>His interests include self-sovereign identity solutions (including financial and social
+                        inclusion for the globally unbanked) and the medical applications of blockchain and biochip
+                        implants.</p>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="sns text-center">
+            <a href="https://www.facebook.com/biohaxinternational" class="btn btn-outline-light sns-links">FACEBOOK</a>
+            <a href="https://www.linkedin.com/in/jowan%C3%B6sterlund/" class="btn btn-outline-light sns-links">LINKEDIN</a>
+            <a href="https://www.instagram.com/biohax.tech/" class="btn btn-outline-light sns-links">INSTAGRAM</a>
+            <a href="https://twitter.com/biohaxint" class="btn btn-outline-light sns-links">TWITTER</a>
+        </section>
+    </main>
+    <footer id="footer" class="container-fluid text-center">
+        <a href="https://www.biohax.tech/terms" class="footerlinks">Privacy Policy</a>
+        <a href="https://www.biohax.tech/useragreement" class="footerlinks">Terms of Use</a>
+        <a href="https://www.biohax.tech/" class="footerlinks">Biohax Int.</a>
+        <p class="lead">Copyright © 2018 Biohax International. All Rights Reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--<script src="bootstrap.min.js"></script>-->
+</body>
+
+</html>

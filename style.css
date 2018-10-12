@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+
+/*Header*/
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/06.jpg");
+    background-size: cover;
+}
+
+.splash-screen .cta {
+    padding: 22px;
+    color: #FFF;
+    border-radius: 15px;
+}
+
+a.text-light {
+    color: #f8f9fa;
+    padding: 0px;
+}
+
+h1.display-4 {
+    font-weight: 0;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+}
+
+/*Navbar*/
+nav.navbar .navbar-expand-lg .navbar-light {
+    position: fixed;
+}
+
+.navbar {
+    background-color: #111;
+    opacity: 0.9;
+    height: 80px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/*Info-cards*/
+#about h2 {
+    text-transform: uppercase;
+}
+
+#about .card {
+    border: none;
+}
+
+#about .card .top {
+    text-align: center;
+}
+
+#about .card .top i {
+    font-size: 4rem;
+}
+
+img.info-img {
+    width: 100%;
+    height: auto;
+}
+
+#keys-img {
+    width: 75%;
+    height: 150px;
+}
+
+#globe-img {
+    width: 150px;
+    height: auto;
+}
+
+#email-img {
+    width: 75%;
+    height: 150px;
+}
+
+/*Parallax*/
+#parallax {
+    background-image: url("images/parallax.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/*Bottom and footer*/
+footer {
+    background-color: #423112;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+section.sns {
+    color: #222;
+    background-color: #012d5c;
+    padding: 60px;
+}
+
+section.sns .sns-links {
+    color: #fff;
+    margin: 0px;
+}
+
+section.sns {
+    padding: 70px;
+}
+
+.nav-img {
+    width: 80px;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: #001d3c;
+}
+
+
+
+.footerlinks {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+p.lead {
+    font-size: 13px;
+}
+
+/*Newsletter form*/
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+ 
+ .popUpContainer {
+    position: fixed;
+    z-index: 100;
+ }
+ 
+ .backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 0.5s ease-out;
+ }
+ 
+ .popUpContainer.hidden {
+    pointer-events: none;
+ }
+ 
+ .popUpContainer.hidden .backdrop {
+    opacity: 0;
+ }
+ 
+ 
+ .popUp {
+    border-radius: 4px;
+    background-color: #3e3c4a;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 26px 20px;
+    position: fixed;
+    z-index: 3;
+    transition: opacity 0.4s ease-out, transform 0.5s ease-in-out;
+ }
+ 
+ .popUpContainer.hidden .popUp {
+    opacity: 0;
+    transform: scale(0.5);
+ }
+ 
+ .cross {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+ 
+ }
+ 
+ .popUp h4 {
+    margin: 0;
+    padding: 6px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+ }
+ 
+ .popUp p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+ }
+ 
+ .popUp form {
+    padding: 14px 30px;
+ }
+ 
+ .popUp input {
+    margin: 10px;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    flex: 1;
+ }
+ 
+ .popUp button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+ }
+ 
+ .popUp button:hover {
+    color: grey;
+ }
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+}
+
+/* Style the input elements and the submit button */
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 0px 0;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #aaa;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+col-6 {
+    width: 50%;
+    float: left;
+}
+
+
+
+/*Newsletter style*/
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.UpContainer {
+    position: fixed;
+    z-index: 100;
+}
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+ 
+ .UpContainer {
+    position: fixed;
+    z-index: 100;
+ }
+ 
+ .backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 10s ease-out;
+ }
+ 
+ .UpContainer.hidden {
+    pointer-events: none;
+ }
+ 
+ .UpContainer.hidden .backdrop {
+    opacity: 0;
+ }
+ 
+ 
+ .Up {
+    border-radius: 4px;
+    background-color: #3e3c4a;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 26px 20px;
+    position: fixed;
+    z-index: 3;
+    transition: opacity 0.4s ease-out, transform 10s ease-in-out;
+ }
+ 
+ .UpContainer.hidden .Up {
+    opacity: 0;
+    transform: scale(0.5);
+ }
+ 
+ .cross {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+ 
+ }
+ 
+ .Up h4 {
+    margin: 0;
+    padding: 6px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+ }
+ 
+ .Up p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+ }
+ 
+ .Up form {
+    padding: 14px 30px;
+ }
+ 
+ .Up input {
+    margin: 10px;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    flex: 1;
+ }
+ 
+ .Up button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+ }
+ 
+ .Up button:hover {
+    color: grey;
+ }
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    transition: 0.5s ease-out;
+}
+
+.UpContainer.hidden {
+    pointer-events: none;
+}
+
+.UpContainer.hidden .backdrop {
+    opacity: 0;
+}
+
+
+.Up {
+    border-radius: 4px;
+    background-color: #3e3c4a;
+    width: 50vw;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 26px 20px;
+    position: fixed;
+    z-index: 3;
+    transition: opacity 0.4s ease-out, transform 0.5s ease-in-out;
+}
+
+.UpContainer.hidden .Up {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.Up .cross {
+    float: right;
+}
+
+.Up h4 {
+    margin: 0;
+    padding: 6px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.Up p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Up form {
+    padding: 14px 30px;
+}
+
+.Up input {
+    margin: 10px;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    flex: 1;
+}
+
+.Up button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+}
+.Up button:hover {
+    color: grey;
+}
+
+
+/*Executive team*/
+.profile {
+    padding: 2vw 8vw;
+    background-color: #dddddd;
+
+}
+
+.profile h1 {
+
+    text-align: center;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.profile img {
+    display: block;
+    min-width: 22vw;
+    min-height: 22vw;
+    max-width: 22vw;
+    max-height: 22vw;
+    border-radius: 50%;
+    align-self: flex-start;
+    margin: 2vw 8vw;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.ceoInfo,
+.chiefInfo {
+    padding: 4vw;
+}
+
+.teamInfo {
+    padding: 24px 0;
+
+}
+
+/* Social media icon bar*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background:  #222;
+    color: white;
+  }
+  
+  .twitter {
+    background: #222;
+    color: white;
+  }
+  
+  .google {
+    background: #222;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #222;
+    color: white;
+  }
+  
+  .youtube {
+    background: #222;
+    color: white;
+  }
+  /*form {
+      background-image: url('Images/cover.jpg');
+      background-size: cover;
+  }
+  .form-group {
+      opacity: 0.4;
+  }*/
+  .bg-img {
+      background-image: url('Images/cover.jpg');
+     
+  }
+
+/*Responsive*/
+@media only screen and (max-width: 1060px) {
+    .row-center {
+        flex-direction: column;
+
+    }
+
+    .subscribeForm input,
+    .subscribeForm button {
+        width: 200px;
+    }
+
+    .profile img {
+        align-self: initial;
+    }
+
+    .line {
+        margin-bottom: 10px;
+    }
+
+    .profile h4 {
+        padding: 10px;
+    }
+
+    .ceoInfo,
+    .chiefInfo {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,153 @@
+ 
+
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/05.jpg");
+    background-size: cover;
+}
+
+.splash-screen .cta {
+    padding: 22px;
+    /*background-color: rgba(0,0,0,0.5);*/
+    color: #FFF;
+    border-radius: 15px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+#about h2 {
+    text-transform: uppercase;
+}
+
+#about .card {
+    border: none;
+}
+
+#about .card .top {
+    text-align: center;
+}
+
+#about .card .top i{
+    font-size: 4rem;
+}
+
+#parallax {
+    background-image: url("images/parallax.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+footer {
+    background-color: #423112;
+    color:#fff;
+    padding: 10px;
+}
+
+nav.navbar .navbar-expand-lg .navbar-light {
+    position: fixed;
+}
+.navbar {
+    background-color: #111;
+    opacity: 0.9;
+    height: 100px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.text-light {
+    color: #f8f9fa;
+    /*font-size: 30px;*/
+    padding: 0px;
+}
+
+.display-4 {
+    font-size: 0px;
+}
+
+section.sns {
+    color: #222;
+    background-color: #012d5c;
+    padding: 60px;
+}
+
+section.sns .sns-links {
+    color: #fff;
+}
+
+.nav-img {
+    width: 80px;
+    height: auto;
+}
+
+h1.display-4 {
+    /*font-size: 100px;*/
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+footer {
+    background-color: #001d3c;
+}
+
+
+
+.footerlinks {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+p.lead {
+    font-size: 13px;
+}
+
+/*Newsletter form*/
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 0px 0;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #aaa;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+col-6 {
+    width: 50%;
+    float: left;
+}
