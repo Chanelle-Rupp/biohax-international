@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Prompt');
 
 
@@ -7,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://cdn.pixabay.com/photo/2012/02/22/19/28/africa-15428_1280.jpg");
+    background-image: url("http://i68.tinypic.com/veynmr.jpg");
     background-size: cover;
 }
 
@@ -50,6 +52,14 @@ nav.navbar .navbar-expand-lg .navbar-light {
     letter-spacing: 2px;
 }
 
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #80a1ff;
+    letter-spacing: 2px;
+}
+
+#mid-nav {
+    border-right: 0.5px solid #999;
+}
 
 /*Info-cards*/
 #about h2 {
@@ -550,7 +560,7 @@ col-6 {
   }
   
   .facebook {
-    background:  #222;
+    background: #000;
     color: white;
   }
   
